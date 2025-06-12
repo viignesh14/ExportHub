@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Quote</title>
+    <link rel="stylesheet" href="./Quote.css">
+</head>
+<body>
+
+    <!-- QUOTE -->
+
+    <div class="container">
+    <h1>Request a Quote</h1>
+    <p>Please fill in the form below to receive a quote for your selected product.</p>
+
+    <form>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="country">Destination Country</label>
+      <input type="text" id="country" name="country" required>
+
+      <label for="product">Select Product</label>
+      <select id="product" name="product" required>
+        <option value="">-- Choose a Product --</option>
+        <option value="onion">Onion</option>
+        <option value="redchilli">Red Chilli</option>
+        <option value="shirt">Shirt</option>
+        <option value="jeans">Jeans Pant</option>
+        <option value="blackpepper">Black Pepper</option>
+        <option value="coconut">Coconut</option>
+        <option value="cardamom">Cardamom</option>
+        <option value="cinnamon">Cinnamon</option>
+        <option value="basmatirice">Basmati Rice</option>
+      </select>
+
+      <label for="quantity">Quantity (in tons or units)</label>
+      <input type="text" id="quantity" name="quantity" required>
+
+      <button type="submit">Submit Quote Request</button>
+    </form>
+  </div>
+
+    
+</body>
+</html>
